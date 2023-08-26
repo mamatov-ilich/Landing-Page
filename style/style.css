@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Red+Hat+Text:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+  width: 1905px;
+  height: auto;
+}
+
+.background-1 {
+  background-image: url("/img/fon2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 125px;
+  height: max-content;
+}
+
+/*header*/
+.logo img {
+  width: 150px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 85px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+.navbar a {
+  color: rgb(252, 253, 254);
+  list-style: none;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.main h1 {
+  color: #ffff;
+  font-size: 46px;
+  line-height: normal;
+  font-weight: 700;
+
+  margin-top: 175px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+.main h1 span {
+  color: #f90;
+}
+
+.main p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  width: 735px;
+}
+.main p span {
+  color: #f90;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  padding-bottom: 280px;
+}
+
+.menu-btn .reservation {
+  background-color: #f90;
+  height: 61px;
+  width: 450px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 45px 0 0 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.reservation img {
+  width: 50px;
+}
+
+.menu-btn .menu {
+  background-color: rgba(246, 245, 244, 0);
+  height: 61px;
+  width: 250px;
+  text-align: center;
+  border-color: #f90;
+  border-style: solid;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0 45px 45px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+/* section menu*/
+
+.background-2 {
+  background-image: url(/img/fon2_2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 125px;
+  height: 1640px;
+}
+
+.stock {
+  padding-top: 155px;
+  display: flex;
+  align-items: center;
+  gap: 205px;
+}
+.stock h1 {
+  color: #fff;
+  font-size: 46px;
+}
+
+.item {
+  margin-top: 175px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.description {
+  width: 341px;
+  height: 367px;
+  border-radius: 20px;
+  background: radial-gradient(
+    128.99% 141.42% at 0% 0%,
+    rgba(99, 99, 99, 0.58) 0%,
+    rgba(99, 99, 99, 0.58) 100%
+  );
+  color: #fff;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.title p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.amount {
+  font-size: 28px;
+  text-align: center;
+  word-spacing: 20px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 45px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.price button {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: #f90;
+  width: 93px;
+  height: 35px;
+  border: #f90;
+  border-radius: 25px;
+}
+.price p {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.checkbox input {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.background-3 {
+  background-image: url(/img/back.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 125px;
+  height: 3170px;
+}
+
+.ellipse img {
+  position: absolute;
+}
+
+.clock {
+  background-color: #282626;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: -65px;
+  left: 180px;
+}
+
+.clock img {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.delivery {
+  background-color: #282626;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: -58px;
+}
+.delivery img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
