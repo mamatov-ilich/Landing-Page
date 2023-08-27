@@ -143,6 +143,7 @@ body {
   align-items: center;
   gap: 35px;
 }
+
 .description {
   width: 341px;
   height: 367px;
@@ -228,6 +229,12 @@ body {
   height: 3170px;
 }
 
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+}
+
 .ellipse img {
   position: absolute;
 }
@@ -258,4 +265,65 @@ body {
 .delivery img {
   margin-top: 10px;
   margin-left: 10px;
+}
+
+.spagetti {
+  background-color: #282626;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: 408px;
+  bottom: 85px;
+}
+.spagetti img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.chef-1 {
+  background-color: #f90;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-left: 345px;
+}
+
+.chef {
+  background-color: #282626;
+  margin-top: -25px;
+  width: 110px;
+  height: 110px;
+  position: relative;
+  border-radius: 50%;
+}
+.chef img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.menu-1 {
+  background-color: #282626;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: -8px;
+  top: -85px;
+}
+.menu-1 img {
+  margin-top: 18px;
+  margin-left: 18px;
+}
+.title-about {
+  display: flex;
+  flex-direction: column;
+}
+.title-about h1 {
+  font-size: 34px;
+  color: #fff;
+}
+.shef-imgs img {
+  width: 25px;
+  height: 25px;
 }
